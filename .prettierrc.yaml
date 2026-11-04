@@ -1,0 +1,16 @@
+semi: true
+singleQuote: true
+trailingComma: none
+tabWidth: 2
+useTabs: false
+arrowParens: avoid
+bracketSpacing: false
+endOfLine: lf
+printWidth: 120
+
+# Tailwind v4 needs the entry stylesheet to sort classes correctly
+tailwindStylesheet: './app/app.css'
+
+# must be the last plugin
+plugins:
+  - 'prettier-plugin-tailwindcss'
